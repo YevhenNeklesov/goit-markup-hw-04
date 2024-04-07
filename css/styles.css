@@ -91,14 +91,12 @@ ul {
 .header-list {
   display: flex;
   gap: 40px;
+ 
 }
 
 .header-item {
   position: relative;
-}
-
-.header-nav-link {
-  display: inline-block;
+        display: inline-block;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -107,6 +105,14 @@ ul {
   display: block;
   display: inline-block;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+
+}
+
+.header-nav-link {
+
+
 }
 
 .header-nav-link:hover,
@@ -196,12 +202,11 @@ ul {
   min-width: 169px;
   margin: 0 auto;
   height: 56px;
-}
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /*--------------------------------------------------------*/
@@ -504,7 +509,7 @@ ul {
 }
 .footer-social-list {
   display: flex;
-  gap: 18px;
+  gap: 16px;
 }
 .icon-item {
 }
